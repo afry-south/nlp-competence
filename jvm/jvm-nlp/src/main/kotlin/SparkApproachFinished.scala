@@ -20,7 +20,7 @@ object SparkApproachFinished {
     // Pro-tip: Use stream if you're gonna deploy code as library
     val muellerReportPath = getClass.getResourceAsStream("report_mueller.txt")
     val src = Source.fromInputStream(muellerReportPath)
-    val muellerText = src.getLines.toList.filterNot(lineIsWhiteSpace).zipWithIndex
+    val muellerText = src.getLines.toList.filterNot(_.forall(_.isWhitespace)).zipWithIndex
     src.close
 
     muellerText
