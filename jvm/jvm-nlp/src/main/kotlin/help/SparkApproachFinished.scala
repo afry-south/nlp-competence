@@ -1,10 +1,12 @@
+package help
+
 import com.johnsnowlabs.nlp.annotator._
 import com.johnsnowlabs.nlp.pretrained.PretrainedPipeline
 import com.johnsnowlabs.nlp.{DocumentAssembler, LightPipeline, SparkNLP}
 import org.apache.spark.ml.Pipeline
 import org.apache.spark.ml.clustering.LDA
 import org.apache.spark.ml.feature.{CountVectorizer, IDF}
-import org.apache.spark.sql.functions._
+import org.apache.spark.sql.functions.{col, explode, udf}
 import org.apache.spark.sql.types.{ArrayType, StringType}
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
