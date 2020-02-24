@@ -14,3 +14,10 @@ Also same applies to `appache-zeppelin`.
 
 zeppelin-daemon.sh start
 http://localhost:8080/#/
+
+
+Notes from old repo:
+Meeting 2: Text Classification - Quora Insincere questions
+In this meeting we created a path forward on how to focus & work. We also decided to use SpaCy as a starting tool in this task of Quora. https://colab.research.google.com/drive/1s56aBkUrkYLCRblDMGHBeHpRNaEQpAs9
+
+Meeting 3: Text Classification - Quora improved
