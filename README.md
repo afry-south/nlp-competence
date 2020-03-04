@@ -10,15 +10,17 @@ The different meetings:
 4. [Neural Network 101 - 20190521](#Neural-Networks-Basics-[20190521,-#4])
 5. [Text Generation pt 1 - 20190626](#Text-Generation-[20190626,-#5])
 6. [Text Generation pt 2 - 20191017](#Text-Generation-pt-2-[20191017,-#6])
-7. []
-8. []
+7. [Data Mining & Social Media Perception - 20191127](#Social-Media-Perception-/-Data-Mining-[20191127,-#7])
+8. [SparkNLP (& how it compares to other approaches) - 20200212](#SparkNLP-[20200212,-#8])
+9. [NER]
 
 
 ### Text Classification IMDB [20190204, #1]
 **Goal:** To classify IMDB review as positive or negative  
 **How:** We started out with explaining basic concepts, then we implemented classic Machine Learning & ended up looking into Word Embeddings  
 **Why:** Fun task where we learned a lot of basics in Machine Learning and Natural Language Processing  
-**Keywords:** TFIDF, Bag of Words, Preprocessing, Machine Learning, Word2Vec, Word Embeddings, scikit-learn, pandas, 
+**Keywords:** TFIDF, Bag of Words, Preprocessing, Machine Learning, Word2Vec, Word Embeddings, scikit-learn, pandas,  
+**Where:** Local: `python/20190204 - #1 [TextClassification]`. [Google Colab](https://colab.research.google.com/github/afry-south/nlp-competence/blob/master/python/20190204%20-%20%231%20%5BTextClassification%5D/20190204-Text-Classification-IMDB.ipynb) (browser)
 
 ### (WIP) Text Classification Quora Insincere Questions [20190223, #2]
 Currently a mess really. We did this locally & had a lot of dependencies...
@@ -57,3 +59,8 @@ I'm gonna find time sometime to convert this into `.ipynb`-files to make it easi
 **Goal:** Learn what Spark, SparkML and **SparkNLP** is. What we can do with it and so on. Also learn when not to use it (as it brings overhead).  
 **How:** Using a JVM project (hidden in `jvm`-folder) we had tooling to try out a Scala Spark approach and a Kotlin "Local" approach.
 **Why:** For fun, and to understand that all tools have their place.
+
+### NER (Named Entity Recognition) [20200212, #9]
+**Goal:** understand what NER is, what applications exists & how to create a basic NER classifier.   
+**How:** Jupyter Notebook.   
+**Why:** Very interesting challenge that could create the base of...
